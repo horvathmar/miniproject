@@ -9,6 +9,7 @@
 nav {
     background-color: rgb(0, 0, 80);
     border-radius: 20px;
+    margin: 20px;
 }
 
 nav a {
@@ -32,10 +33,7 @@ nav a:hover {
 .fejleckep {
     height: 65px;
 }
-button{
-    
-    background-color: white !important;
-}
+
 body {
     background-color:  rgb(252, 255, 223);
     color: black;
@@ -66,4 +64,47 @@ h2 {
 .tanarkepek {
     padding: 15px;
     width: 18rem;
+}
+
+table {
+    border: 2px solid black !important;
+    background-color: white;
+}
+table td:first-child {
+    padding: 0px;
+    border: 1px solid black;
+  }
+  table td {
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    height: 3rem;
+  }
+  table th {
+    padding: 20px;
+    border: 2px solid black;
+    height: 3rem;
+    vertical-align: middle;
+}
+.nincskep{
+    color: gray;
+    font-style: italic;
+}
+
+.accordion{
+    margin-bottom: 40px;
+}
+.labjegyzet{
+    width: 100%;
+    background-color: rgb(0, 0, 80);
+    height: 8rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    color: white;
+    margin: 20px;
 }
