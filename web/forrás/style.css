@@ -1,14 +1,4 @@
-#fejlec {
-    text-align: center;
-    width: 100%;
-    margin: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 nav {
-    background-color: rgb(0, 0, 80);
-    border-radius: 20px;
     margin: 20px;
 }
 
@@ -34,30 +24,17 @@ nav a:hover {
     height: 65px;
 }
 
-body {
-    background-color:  rgb(252, 255, 223);
-    color: black;
-}
-
-h2 {
-    font-size: 1.3rem;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
 .row {
     margin: 20px;
 }
 .card {
     border-radius: 10px;
     transition: ease-in-out 0.2s;
-    margin: 10px;
     height: 550px;
     overflow: hidden;
-    width: 18rem;
+
 }
 .card:hover{
-    background-color: whitesmoke;
     scale: 102%;
 }
 
