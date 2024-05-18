@@ -44,7 +44,6 @@ nav a:hover {
 }
 
 table {
-    border: 2px solid black !important;
     background-color: white;
 }
 table td:first-child {
@@ -73,16 +72,11 @@ table td:first-child {
     margin-bottom: 40px;
 }
 .labjegyzet{
-    width: 100%;
-    background-color: rgb(0, 0, 80);
-    height: 8rem;
+    margin-bottom: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 .icon {
-    width: 25px;
-    height: 25px;
-    color: white;
     margin: 20px;
 }
 
